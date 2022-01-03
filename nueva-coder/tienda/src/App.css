@@ -1,0 +1,47 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  background-color: rgb(100, 201, 167);
+
+}
+
+.logo {
+  height: 60px;
+  width: auto;
+}
+
+.secciones {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+
+.secciones a {
+  text-decoration: none;
+  color: black;
+}
+
+.secciones a:hover {
+  cursor: pointer;
+}
+
+.secciones li {
+  list-style-type: none;
+}
+
+.fotoCarrito {
+  height: 30px;
+  width: 30px;
+}
+
+.carrito {
+  display: flex;
+  align-items: center;
+  background-color: rgba(223, 223, 223, 0.733);
+  padding:3px;
+}
+
+.carrito:hover {
+  cursor: pointer;
+}

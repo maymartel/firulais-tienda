@@ -1,0 +1,71 @@
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    background-color: #ffc272;
+    width: 400px;
+    height: auto;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.imagenProducto {
+    width: auto;
+    height: 250px;
+}
+
+.tarjetaDescripcion {
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    background-color: #ffc272;
+    width: 300px;
+    height: auto;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.contenedor {
+    background-color: #ffc272;
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contador {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 1px 1px 3px;
+    height: 30px;
+    width: 100%;
+}
+
+.botonCarrito {
+    margin-top: 10px;
+    background-color: white;
+    border: 1px solid rgb(233, 7, 176);
+    height: 30px;
+    width: 100%;
+    color: rgb(233, 7, 176);
+    border-radius: 15px;
+}
+
+.signosContador {
+    color: rgb(233, 7, 176);
+    font-weight: bold;
+}
+
+.signosContador:hover {
+    cursor: pointer;
+}

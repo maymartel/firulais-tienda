@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1, 
+        "title":"Collar", 
+        "price":500, 
+        "category": "accesorios", 
+        "description": "Collar de cuero con tachas", 
+        "stock":10, 
+        "imageUrl":"https://http2.mlstatic.com/D_NQ_NP_2X_614891-MLA48601106585_122021-F.webp"
+    },
+    {
+        "id": 2, 
+        "title":"Pelota", 
+        "price":350, 
+        "category": "juguetes", 
+        "description": "Pelota maciza", 
+        "stock":15, 
+        "imageUrl":"https://http2.mlstatic.com/D_NQ_NP_947771-MLA40122848330_122019-O.jpg"
+    }
+]
