@@ -1,7 +1,18 @@
-import React from "react";
 import ItemCount from "./ItemCount";
+import React, {useState} from "react";
+import { NavLink } from "react-router-dom";
 
 function ItemDetail({item}) {
+
+    const [contador, setContador] = useState(0);
+
+    window.addEventListener("agregar", () => {
+        setContador(contador +1)
+    })
+
+    window.addEventListener("restar", () => {
+        setContador(contador -1)
+    })
 
     return(
         <div className="tarjetaDescripcion">
@@ -9,7 +20,10 @@ function ItemDetail({item}) {
             <img src={item.imageUrl} alt="" className="imagenProducto"/>
             <p>{item.description}</p>
             <p>{item.price}</p>
-            <ItemCount stock={item.stock} initial={0}/>
+            <ItemCount stock={item.stock} contador={contador} />
+            <NavLink to="/cart">
+            <button>Agregar al carrito</button>
+            </NavLink>
         </div>
     )
 }
